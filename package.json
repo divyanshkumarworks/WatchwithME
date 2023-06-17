@@ -1,0 +1,21 @@
+{
+  "name": "web-sockets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendbird/chat": "^4.9.1",
+    "express": "^4.17.1",
+    "sendbird": "^3.1.32",
+    "socket.io": "^4.6.2",
+    "socket.io-client": "^4.6.2",
+    "uuid": "^9.0.0"
+  },
+  "description": "",
+  "type": "module"
+}
