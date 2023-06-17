@@ -230,9 +230,13 @@ function displaySession(param) {
 	}
 	else{
 		if (queryString.includes('youtubeId')) {
+<<<<<<< HEAD
 			window.location.href = "/";
-			window.location.replace("file:///C:/Users/rishu/web%20sockets/index.html")
+=======
+			window.location.href = "";
+			window.location.replace("/")
 			displaySession('create');
+>>>>>>> 3be1baaa800cc4d90a23b89c842f8fb9d0952b3a
 		}
 		else{
 			form_div = document.getElementById('form');
