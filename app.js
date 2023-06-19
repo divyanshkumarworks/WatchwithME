@@ -230,13 +230,7 @@ function displaySession(param) {
 	}
 	else{
 		if (queryString.includes('youtubeId')) {
-<<<<<<< HEAD
-			window.location.href = "/";
-=======
-			window.location.href = "";
-			window.location.replace("/")
-			displaySession('create');
->>>>>>> 3be1baaa800cc4d90a23b89c842f8fb9d0952b3a
+			window.location.href = "https://divyanshkumarworks.github.io/divyanshkumarworks/";
 		}
 		else{
 			form_div = document.getElementById('form');
