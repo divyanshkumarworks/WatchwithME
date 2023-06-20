@@ -210,41 +210,40 @@ function displayHomePage() {
 	player_div.style.visibility = "hidden";
 }
 
-function displaySession(param) {
-	if (param === "start") {
-		if (queryString.includes('youtubeId')) {
-			loadOtherPlayer();
-			home_container = document.getElementById('home-container');
-			home_container.style.visibility = "hidden";
-			embedYTVideo();
-			player_buttons = document.getElementById('play-pause-button')
-			player_buttons.style.visibility = "visible";
-			duartion_bar = document.getElementById('duration-bar');
-			duartion_bar.style.visibility = "visible";
-			back_button = document.getElementById('back-button');
-			back_button.style.visibility = "visible";
+function displayStartSession() {
+	if (queryString.includes('youtubeId')) {
+		loadOtherPlayer();
+		home_container = document.getElementById('home-container');
+		home_container.style.visibility = "hidden";
+		embedYTVideo();
+		player_buttons = document.getElementById('play-pause-button')
+		player_buttons.style.visibility = "visible";
+		duartion_bar = document.getElementById('duration-bar');
+		duartion_bar.style.visibility = "visible";
+		back_button = document.getElementById('back-button');
+		back_button.style.visibility = "visible";
 
-		}else {
-			alert("this page was not opened using shared link!")
-		}
+	}else {
+		alert("this page was not opened using shared link!")
+	}
+}
+
+function displayCreateSession() {
+	if (queryString.includes('youtubeId')) {
+		location.replace("https://divyanshkumarworks.github.io/divyanshkumarworks/");
 	}
 	else{
-		if (queryString.includes('youtubeId')) {
-			window.location.href = "https://divyanshkumarworks.github.io/divyanshkumarworks/";
-		}
-		else{
-			form_div = document.getElementById('form');
-			form_div.style.visibility = "visible";
-			home_container = document.getElementById('home-container');
-			home_container.style.visibility = "hidden";
-			embedYTVideo();
-			player_buttons = document.getElementById('play-pause-button')
-			player_buttons.style.visibility = "visible";
-			duartion_bar = document.getElementById('duration-bar');
-			duartion_bar.style.visibility = "visible";
-			back_button = document.getElementById('back-button');
-			back_button.style.visibility = "visible";
-		}
+		form_div = document.getElementById('form');
+		form_div.style.visibility = "visible";
+		home_container = document.getElementById('home-container');
+		home_container.style.visibility = "hidden";
+		embedYTVideo();
+		player_buttons = document.getElementById('play-pause-button')
+		player_buttons.style.visibility = "visible";
+		duartion_bar = document.getElementById('duration-bar');
+		duartion_bar.style.visibility = "visible";
+		back_button = document.getElementById('back-button');
+		back_button.style.visibility = "visible";
 	}
 }
 
