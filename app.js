@@ -230,7 +230,7 @@ function displayStartSession() {
 
 function displayCreateSession() {
 	if (queryString.includes('youtubeId')) {
-		location.replace("https://divyanshkumarworks.github.io/divyanshkumarworks/");
+		window.location.href = "https://divyanshkumarworks.github.io/divyanshkumarworks/";
 	}
 	else{
 		form_div = document.getElementById('form');
