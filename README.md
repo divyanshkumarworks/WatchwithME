@@ -27,6 +27,13 @@ A suite of tools and resources designed for building and managing real-time chat
 
 This project uses sendbird chat sdk with javascript but you can use this sdk on some other languages as well. You can find more infromation at:  [https://docs.sendbird.com/docs/chat](https://docs.sendbird.com/docs/chat).
 
+### Youtube IFrame Player API
+
+- The YouTube Android Player API enables you to incorporate video playback functionality into your Android applications. <br>
+- The API defines methods for loading and playing YouTube videos (and playlists) and for customizing and controlling the video playback experience.<br>
+- Using the API, you can load or cue videos into a player view embedded in your application’s UI. You can then control playback programmatically. For example, you can play, pause, or seek to a specific point in the currently loaded video.<br>
+- You can also register event listeners to get callbacks for certain events, such as the player loading a video or the player state changing. Finally, the API
+
 ## Features
 * Adapts to quality as per the bandwidth
 * Supports Live Stream videos
