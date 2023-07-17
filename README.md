@@ -1,4 +1,4 @@
-# Welcome to WatchwithME
+# Welcome to Watch With Me
 
 Created a web app for watching youtube video with friends where one can start a youtube video and create a shareable link which others can join and watch together similar to how apple's shareplay work.
 
